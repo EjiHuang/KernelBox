@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="KernelBox.Common.CommonFunction" Collapsed="true">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\cCommon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KernelBox.Common.CommonVar" Collapsed="true">
+    <Position X="4" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAEAAAgAAAAAAAAEAgAAACAAAAAAIAg=</HashCode>
+      <FileName>Common\cCommon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KernelBox.DriverManager" Collapsed="true">
+    <Position X="2.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAFAADAACAAUAAAABACAAAIEAAAAIAAAJAABAAI=</HashCode>
+      <FileName>DrvMgr\cDriverManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KernelBox.MainForm" Collapsed="true">
+    <Position X="4" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEkXg3MpOi4IY0oSyzR0tBaoQxQOUIbqECRASyJ5u0=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KernelBox.NativeApi" Collapsed="true">
+    <Position X="5.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAoAgAAABAAAFAEAQAAqAAAAAAABBAoQAAUAAABAA=</HashCode>
+      <FileName>NativeApi\cNativeApi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KernelBox.NativeApiEx" Collapsed="true">
+    <Position X="7.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NativeApi\cNativeApiEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KernelBox.Program" Collapsed="true">
+    <Position X="4" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAABAAAAQA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplorerManager.cFile" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAABAECAQEAgAAAEAAAAAAAAEAAAVAAAIEQAAA=</HashCode>
+      <FileName>Explorer\cFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KernelBox.ProcessMgr.cProcessMgr" Collapsed="true">
+    <Position X="5.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAEQCAgAAAAAAAAAAAEAAEAAAAAAACwFBAAAAQwQA=</HashCode>
+      <FileName>ProcessMgr\cProcessMgr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KernelBox.Properties.Resources" Collapsed="true">
+    <Position X="5.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KernelBox.Properties.Settings" Collapsed="true">
+    <Position X="7.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KernelBox.Registry.Controls.NumericTextBox" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACAACACiAAAAAEDMCAABCCAAAAIAAACIAQBEAAAAQ=</HashCode>
+      <FileName>Registry\Controls\NumericTextBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KernelBox.Registry.cRegContextMenuStrip" Collapsed="true">
+    <Position X="7.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gABAgAAAAAEAACAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Registry\cRegContextMenuStrip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KernelBox.Registry.cRegExtensions" Collapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Registry\cRegExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KernelBox.Registry.cRegKey" Collapsed="true">
+    <Position X="4" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAQAAAAAQAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Registry\cRegKey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KernelBox.Registry.cRegOtherFunction" Collapsed="true">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABgAAAIAQAEAAAIAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Registry\cRegUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KernelBox.Registry.cRegValue" Collapsed="true">
+    <Position X="7.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAABAAAAEAAAAAAQAABBEAJAAAAAAAAAAAAA=</HashCode>
+      <FileName>Registry\cRegValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KernelBox.RegistryEditor.cRegistry" Collapsed="true">
+    <Position X="2.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAQCAIABAEAQCAAUAABAAAogAAAAAAAAAACGAAAA=</HashCode>
+      <FileName>Registry\cRegistry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KernelBox.Registry.Editors.BinaryEditor" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAAAAAACAAIACAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Registry\Editors\BinaryEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KernelBox.Registry.Editors.DWordQWordEditor" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACAAAAAQAACAIIACAAAAAAAAgCAAAAAAAAA=</HashCode>
+      <FileName>Registry\Editors\DWordQWordEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KernelBox.Registry.Editors.MultiStringEditor" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACAAAAAAAACAAIACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Registry\Editors\MultiStringEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KernelBox.Registry.Editors.StringEditor" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAACAACAAIACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Registry\Editors\StringEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KernelBox.Registry.Editors.Registry_ValueEditor" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGAAABEAAACAAAACAAAAAEAAAAAgAAAAAAQ=</HashCode>
+      <FileName>Registry\Editors\ValueEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KernelBox.SSDTMgr.cSSDTMgr" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACAAIAAAAAAAAACAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>SSDTMgr\cSSDTMgr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KernelBox.SSDTMgr.OtherFunction" Collapsed="true">
+    <Position X="2.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAABAAAAAAAAAAhAABAAAAAgDAEAAAAAAAACAgAARAA=</HashCode>
+      <FileName>SSDTMgr\cSSDTMgr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="KernelBox.ProcessMgr.PROCESSINFO" Collapsed="true">
+    <Position X="5.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAIAAAACAAACAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProcessMgr\cProcessMgr.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="KernelBox.ProcessMgr.MODULEINFO" Collapsed="true">
+    <Position X="4" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAIAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>ProcessMgr\cProcessMgr.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="KernelBox.ProcessMgr.THREADINFO" Collapsed="true">
+    <Position X="0.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAgIAEACAAAEAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>ProcessMgr\cProcessMgr.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="KernelBox.ProcessMgr.MODULE_UNINSTALL" Collapsed="true">
+    <Position X="2.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>ProcessMgr\cProcessMgr.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="KernelBox.SSDTMgr.SYSTEM_MODULE_INFORMATION" Collapsed="true">
+    <Position X="7.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAgAAIAAAAAAAAAAAABAgAIAEAAAAAYAA=</HashCode>
+      <FileName>SSDTMgr\cSSDTMgr.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="KernelBox.SSDTMgr.MODULE_LIST" Collapsed="true">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>SSDTMgr\cSSDTMgr.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="KernelBox.Common.IOCTL_CODE" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAEAiAAIAAAAAAAAACAAAAAAAAAAACwAAQAAAAAQA=</HashCode>
+      <FileName>Common\cCommon.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

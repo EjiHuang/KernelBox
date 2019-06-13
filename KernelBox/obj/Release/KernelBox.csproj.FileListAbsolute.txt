@@ -1,0 +1,26 @@
+L:\visual studio 2015 Git\KernelBox\x64\Debug\KernelBox.exe.config
+L:\visual studio 2015 Git\KernelBox\KernelBox\obj\Release\KernelBox.csprojResolveAssemblyReference.cache
+L:\visual studio 2015 Git\KernelBox\KernelBox\obj\Release\KernelBox.MainForm.resources
+L:\visual studio 2015 Git\KernelBox\KernelBox\obj\Release\KernelBox.Properties.Resources.resources
+L:\visual studio 2015 Git\KernelBox\KernelBox\obj\Release\KernelBox.csproj.GenerateResource.Cache
+L:\visual studio 2015 Git\KernelBox\x64\Debug\KernelBox.exe
+L:\visual studio 2015 Git\KernelBox\x64\Debug\KernelBox.pdb
+L:\visual studio 2015 Git\KernelBox\KernelBox\obj\Release\KernelBox.exe
+L:\visual studio 2015 Git\KernelBox\KernelBox\obj\Release\KernelBox.pdb
+L:\visual studio 2015 Git\KernelBox\x64\Release\KernelBox.exe.config
+L:\visual studio 2015 Git\KernelBox\x64\Release\KernelBox.exe
+L:\visual studio 2015 Git\KernelBox\x64\Release\KernelBox.pdb
+C:\_MyDatas\coding\Source\Repos\KernelProject\KernelBox\x64\Release\KernelBox.exe.config
+C:\_MyDatas\coding\Source\Repos\KernelProject\KernelBox\x64\Release\KernelBox.exe
+C:\_MyDatas\coding\Source\Repos\KernelProject\KernelBox\x64\Release\KernelBox.pdb
+C:\_MyDatas\coding\Source\Repos\KernelProject\KernelBox\KernelBox\obj\Release\KernelBox.csprojResolveAssemblyReference.cache
+C:\_MyDatas\coding\Source\Repos\KernelProject\KernelBox\KernelBox\obj\Release\KernelBox.MainForm.resources
+C:\_MyDatas\coding\Source\Repos\KernelProject\KernelBox\KernelBox\obj\Release\KernelBox.Properties.Resources.resources
+C:\_MyDatas\coding\Source\Repos\KernelProject\KernelBox\KernelBox\obj\Release\KernelBox.Registry.Editors.Registry_ValueEditor.resources
+C:\_MyDatas\coding\Source\Repos\KernelProject\KernelBox\KernelBox\obj\Release\KernelBox.csproj.GenerateResource.Cache
+C:\_MyDatas\coding\Source\Repos\KernelProject\KernelBox\KernelBox\obj\Release\KernelBox.exe
+C:\_MyDatas\coding\Source\Repos\KernelProject\KernelBox\KernelBox\obj\Release\KernelBox.pdb
+C:\_MyDatas\coding\Source\Repos\KernelProject\KernelBox\KernelBox\obj\Release\KernelBox.Registry.Editors.BinaryEditor.resources
+C:\_MyDatas\coding\Source\Repos\KernelProject\KernelBox\KernelBox\obj\Release\KernelBox.Registry.Editors.DWordQWordEditor.resources
+C:\_MyDatas\coding\Source\Repos\KernelProject\KernelBox\KernelBox\obj\Release\KernelBox.Registry.Editors.MultiStringEditor.resources
+C:\_MyDatas\coding\Source\Repos\KernelProject\KernelBox\KernelBox\obj\Release\KernelBox.Registry.Editors.StringEditor.resources

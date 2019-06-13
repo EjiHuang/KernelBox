@@ -1,0 +1,90 @@
+;
+; MainDriver.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=Sample ; TODO: edit Class
+ClassGuid={78A1C341-4539-11d3-B88D-00C04FAD5171} ; TODO: edit ClassGuid
+Provider=%ManufacturerName%
+CatalogFile=MainDriver.cat
+DriverVer= ; TODO: set DriverVer in stampinf property pages
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+; ================= Class section =====================
+
+[ClassInstall32]
+Addreg=SampleClassReg
+
+[SampleClassReg]
+HKR,,,0,%ClassName%
+HKR,,Icon,,-5
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+MainDriver.sys  = 1,,
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName%=Standard,NT$ARCH$
+
+[Standard.NT$ARCH$]
+%MainDriver.DeviceDesc%=MainDriver_Device, Root\MainDriver ; TODO: edit hw-id
+
+[MainDriver_Device.NT]
+CopyFiles=Drivers_Dir
+
+[Drivers_Dir]
+MainDriver.sys
+
+;-------------- Service installation
+[MainDriver_Device.NT.Services]
+AddService = MainDriver,%SPSVCINST_ASSOCSERVICE%, MainDriver_Service_Inst
+
+; -------------- MainDriver driver install sections
+[MainDriver_Service_Inst]
+DisplayName    = %MainDriver.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\MainDriver.sys
+
+;
+;--- MainDriver_Device Coinstaller installation ------
+;
+
+[DestinationDirs]
+MainDriver_Device_CoInstaller_CopyFiles = 11
+
+[MainDriver_Device.NT.CoInstallers]
+AddReg=MainDriver_Device_CoInstaller_AddReg
+CopyFiles=MainDriver_Device_CoInstaller_CopyFiles
+
+[MainDriver_Device_CoInstaller_AddReg]
+HKR,,CoInstallers32,0x00010000, "WdfCoInstaller$KMDFCOINSTALLERVERSION$.dll,WdfCoInstaller"
+
+[MainDriver_Device_CoInstaller_CopyFiles]
+WdfCoInstaller$KMDFCOINSTALLERVERSION$.dll
+
+[SourceDisksFiles]
+WdfCoInstaller$KMDFCOINSTALLERVERSION$.dll=1 ; make sure the number matches with SourceDisksNames
+
+[MainDriver_Device.NT.Wdf]
+KmdfService =  MainDriver, MainDriver_wdfsect
+[MainDriver_wdfsect]
+KmdfLibraryVersion = $KMDFVERSION$
+
+[Strings]
+SPSVCINST_ASSOCSERVICE= 0x00000002
+ManufacturerName="<Your manufacturer name>" ;TODO: Replace with your manufacturer name
+ClassName="Samples" ; TODO: edit ClassName
+DiskName = "MainDriver Installation Disk"
+MainDriver.DeviceDesc = "MainDriver Device"
+MainDriver.SVCDESC = "MainDriver Service"
